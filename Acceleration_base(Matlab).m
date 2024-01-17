@@ -1,15 +1,15 @@
 %{
-±¾ÏîÄ¿ÓÉÉÏº£½»Í¨´óÑ§ÊýÑ§¿ÆÑ§Ñ§Ôº2023¼¶Ó¦ÓÃÍ³¼Æ×¨Òµ×éÖ¯±àÐ´.
+æœ¬é¡¹ç›®ç”±ä¸Šæµ·äº¤é€šå¤§å­¦æ•°å­¦ç§‘å­¦å­¦é™¢2023çº§åº”ç”¨ç»Ÿè®¡ä¸“ä¸šç»„ç»‡ç¼–å†™.
 
-¸ÐÐ»Íõ³ÉÀÏÊ¦¶ÔÓÚ±¾ÏîÄ¿µÄÇãÁ¦Ö¸µ¼!
-¸ÐÐ»ÁõÈôØ®Í¬Ñ§¶ÔÓÚ±¾ÏîÄ¿µÄºÏ×÷Óë¹±Ï×!
-¸ÐÐ»Àî²ý¿¥Í¬Ñ§¶ÔÓÚ±¾ÏîÄ¿Ìá¹©µÄÖî¶à±¦¹ó½¨Òé!
+æ„Ÿè°¢çŽ‹æˆè€å¸ˆå¯¹äºŽæœ¬é¡¹ç›®çš„å€¾åŠ›æŒ‡å¯¼!
+æ„Ÿè°¢åˆ˜è‹¥ç¦ºåŒå­¦å¯¹äºŽæœ¬é¡¹ç›®çš„åˆä½œä¸Žè´¡çŒ®!
+æ„Ÿè°¢æŽæ˜ŒéªåŒå­¦å¯¹äºŽæœ¬é¡¹ç›®æä¾›çš„è¯¸å¤šå®è´µå»ºè®®!
 
-±¾ÏîÄ¿Éæ¼°µ½µÄÄÚÈÝ¾ù¿É¿ìËÙ·â×°Îª¶ÔÓ¦µÄ¹ØÓÚÎ¬Êýn, p, µü´ú´ÎÊýiterµÄº¯Êý.
+æœ¬é¡¹ç›®æ¶‰åŠåˆ°çš„å†…å®¹å‡å¯å¿«é€Ÿå°è£…ä¸ºå¯¹åº”çš„å…³äºŽç»´æ•°n, p, è¿­ä»£æ¬¡æ•°iterçš„å‡½æ•°.
 
 %}
 
-% ÈÎÎñÒ»: ´´½¨¸ßÎ¬¾ØÕó, ½øÐÐ¼òµ¥×ªÖÃÔËËã»ò¾ØÕó³Ë·¨ÔËËã.
+% ä»»åŠ¡ä¸€: åˆ›å»ºé«˜ç»´çŸ©é˜µ, è¿›è¡Œç®€å•è½¬ç½®è¿ç®—æˆ–çŸ©é˜µä¹˜æ³•è¿ç®—.
 clear all;
 clc;
 iter = 10;
@@ -25,9 +25,9 @@ for i = 1:iter
 end
 
 time_1 = time/iter;
-fprintf('ÈÎÎñÒ»Æ½¾ùÓÃÊ±: %f Ãë.\n', time_1);
+fprintf('ä»»åŠ¡ä¸€å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_1);
 
-% ÈÎÎñ¶þ: Éú³É¸ßÎ¬¾ØÕó, ²¢½øÐÐ¸ß´Î¾ØÕó³Ë·¨ÔËËã
+% ä»»åŠ¡äºŒ: ç”Ÿæˆé«˜ç»´çŸ©é˜µ, å¹¶è¿›è¡Œé«˜æ¬¡çŸ©é˜µä¹˜æ³•è¿ç®—
 clear all;
 iter = 10;
 time = 0;
@@ -42,9 +42,9 @@ for i = 1:iter
 end
 time_2 = time/iter;
 
-fprintf('ÈÎÎñ¶þÆ½¾ùÓÃÊ±: %f Ãë.\n', time_2);
+fprintf('ä»»åŠ¡äºŒå¹³å‡ç”¨æ—¶: %f ç§’.\n', time_2);
 
-% ÈÎÎñÈý: Éú³É7°ÙÍò¸öËæ»úÖµ, ²¢¶ÔËæ»úÖµ½øÐÐÅÅÐò.
+% ä»»åŠ¡ä¸‰: ç”Ÿæˆ7ç™¾ä¸‡ä¸ªéšæœºå€¼, å¹¶å¯¹éšæœºå€¼è¿›è¡ŒæŽ’åº.
 clear all;
 iter = 10;
 time = 0;
@@ -58,9 +58,9 @@ for i = 1:iter
 end
 
 time_3 = time/iter;
-fprintf('ÈÎÎñÈýÆ½¾ùÓÃÊ±: %f Ãë.\n', time_3);
+fprintf('ä»»åŠ¡ä¸‰å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_3);
 
-% ÈÎÎñËÄ: Éú³É2800Î¬ÏòÁ¿×ö½»²æ³Ë»ý.
+% ä»»åŠ¡å››: ç”Ÿæˆ2800ç»´å‘é‡åšäº¤å‰ä¹˜ç§¯.
 clear all;
 iter = 10;
 time = 0;
@@ -74,9 +74,9 @@ for i = 1:iter
 end
 
 time_4 = time/iter;
-fprintf('ÈÎÎñËÄÆ½¾ùÓÃÊ±: %f Ãë.\n', time_4);
+fprintf('ä»»åŠ¡å››å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_4);
 
-% ÈÎÎñÎå: »ùÓÚ3000Î¬¾ØÕóµÄ»Ø¹é·ÖÎö.
+% ä»»åŠ¡äº”: åŸºäºŽ3000ç»´çŸ©é˜µçš„å›žå½’åˆ†æž.
 clear all;
 iter = 10;
 time = 0;
@@ -92,23 +92,23 @@ for i = 1:iter
 end
 
 time_5 = time/iter;
-fprintf('ÈÎÎñÎåÆ½¾ùÓÃÊ±: %f Ãë.\n', time_5);
+fprintf('ä»»åŠ¡äº”å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_5);
 
 
 %{ 
-µÚÒ»½×¶ÎµÄÄ³´ÎÔËÐÐ½á¹ûÎª:
+ç¬¬ä¸€é˜¶æ®µçš„æŸæ¬¡è¿è¡Œç»“æžœä¸º:
 
-ÈÎÎñÒ»Æ½¾ùÓÃÊ±: 0.078619 Ãë.
-ÈÎÎñ¶þÆ½¾ùÓÃÊ±: 0.269022 Ãë.
-ÈÎÎñÈýÆ½¾ùÓÃÊ±: 0.309814 Ãë.
-ÈÎÎñËÄÆ½¾ùÓÃÊ±: 0.000108 Ãë.
-ÈÎÎñÎåÆ½¾ùÓÃÊ±: 0.001233 Ãë.
+ä»»åŠ¡ä¸€å¹³å‡ç”¨æ—¶: 0.078619 ç§’.
+ä»»åŠ¡äºŒå¹³å‡ç”¨æ—¶: 0.269022 ç§’.
+ä»»åŠ¡ä¸‰å¹³å‡ç”¨æ—¶: 0.309814 ç§’.
+ä»»åŠ¡å››å¹³å‡ç”¨æ—¶: 0.000108 ç§’.
+ä»»åŠ¡äº”å¹³å‡ç”¨æ—¶: 0.001233 ç§’.
 
 %}
 
 
 
-% ÈÎÎñÁù: ¶Ô¶þ°ÙÍò¸öËæ»úÖµ×ö¿ìËÙFourier±ä»».
+% ä»»åŠ¡å…­: å¯¹äºŒç™¾ä¸‡ä¸ªéšæœºå€¼åšå¿«é€ŸFourierå˜æ¢.
 clear all;
 iter = 10;
 time = 0;
@@ -123,9 +123,9 @@ for i = 1:iter
 end
 
 time_6 = time/iter;
-fprintf('ÈÎÎñÁùÆ½¾ùÓÃÊ±: %f Ãë.\n', time_6);
+fprintf('ä»»åŠ¡å…­å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_6);
 
-% ÈÎÎñÆß: ¶ÔÓÚ¸ßÎ¬¾ØÕóÈ¡ÌØÕ÷Öµ.
+% ä»»åŠ¡ä¸ƒ: å¯¹äºŽé«˜ç»´çŸ©é˜µå–ç‰¹å¾å€¼.
 clear all;
 iter = 10;
 time = 0;
@@ -139,9 +139,9 @@ for i = 1:iter
 end
 
 time_7 = time/iter;
-fprintf('ÈÎÎñÆßÆ½¾ùÓÃÊ±: %f Ãë.\n', time_7);
+fprintf('ä»»åŠ¡ä¸ƒå¹³å‡ç”¨æ—¶: %f ç§’.\n', time_7);
 
-% ÈÎÎñ°Ë: ¶ÔÓÚ¸ßÎ¬¾ØÕóÈ¡ÐÐÁÐÊ½.
+% ä»»åŠ¡å…«: å¯¹äºŽé«˜ç»´çŸ©é˜µå–è¡Œåˆ—å¼.
 clear all;
 iter = 10;
 time = 0;
@@ -155,9 +155,9 @@ for i = 1:iter
 end
 
 time_8 = time/iter;
-fprintf('ÈÎÎñ°ËÆ½¾ùÓÃÊ±: %f Ãë.\n', time_8);
+fprintf('ä»»åŠ¡å…«å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_8);
 
-% ÈÎÎñ¾Å: ¶ÔÓÚ¸ßÎ¬¾ØÕó½øÐÐCholesky·Ö½â.
+% ä»»åŠ¡ä¹: å¯¹äºŽé«˜ç»´çŸ©é˜µè¿›è¡ŒCholeskyåˆ†è§£.
 clear all;
 iter = 10;
 time = 0;
@@ -172,9 +172,9 @@ for i = 1:iter
 end
 
 time_9 = time/iter;
-fprintf('ÈÎÎñ¾ÅÆ½¾ùÓÃÊ±: %f Ãë.\n', time_9);
+fprintf('ä»»åŠ¡ä¹å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_9);
 
-% ÈÎÎñÊ®: ¶ÔÓÚ¸ßÎ¬¾ØÕó½øÐÐÇóÄæÔËËã.
+% ä»»åŠ¡å: å¯¹äºŽé«˜ç»´çŸ©é˜µè¿›è¡Œæ±‚é€†è¿ç®—.
 clear all;
 iter = 10;
 time = 0;
@@ -188,20 +188,20 @@ for i = 1:iter
 end
 
 time_10 = time/iter;
-fprintf('ÈÎÎñÊ®Æ½¾ùÓÃÊ±: %f Ãë.\n', time_10);
+fprintf('ä»»åŠ¡åå¹³å‡ç”¨æ—¶: %f ç§’.\n', time_10);
 
 %{ 
-µÚ¶þ½×¶ÎµÄÄ³´ÎÔËÐÐ½á¹ûÎª:
+ç¬¬äºŒé˜¶æ®µçš„æŸæ¬¡è¿è¡Œç»“æžœä¸º:
 
-ÈÎÎñÁùÆ½¾ùÓÃÊ±: 0.034674 Ãë.
-ÈÎÎñÆßÆ½¾ùÓÃÊ±: 0.192686 Ãë.
-ÈÎÎñ°ËÆ½¾ùÓÃÊ±: 0.180940 Ãë.
-ÈÎÎñ¾ÅÆ½¾ùÓÃÊ±: 0.426265 Ãë.
-ÈÎÎñÊ®Æ½¾ùÓÃÊ±: 1.468218 Ãë.
+ä»»åŠ¡å…­å¹³å‡ç”¨æ—¶: 0.034674 ç§’.
+ä»»åŠ¡ä¸ƒå¹³å‡ç”¨æ—¶: 0.192686 ç§’.
+ä»»åŠ¡å…«å¹³å‡ç”¨æ—¶: 0.180940 ç§’.
+ä»»åŠ¡ä¹å¹³å‡ç”¨æ—¶: 0.426265 ç§’.
+ä»»åŠ¡åå¹³å‡ç”¨æ—¶: 1.468218 ç§’.
 
 %}
 
-% ÈÎÎñÊ®Ò»: Çó½âFibonacciµÝÍÆÊýÁÐ.
+% ä»»åŠ¡åä¸€: æ±‚è§£Fibonaccié€’æŽ¨æ•°åˆ—.
 clear all;
 iter = 10;
 time = 0;
@@ -218,9 +218,9 @@ for i = 1:iter
 end
 
 time_11 = time/iter;
-fprintf('ÈÎÎñÊ®Ò»Æ½¾ùÓÃÊ±: %f Ãë.\n', time_11);
+fprintf('ä»»åŠ¡åä¸€å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_11);
 
-% ÈÎÎñÊ®¶þ: ´´½¨¸ßÎ¬Hilbert¾ØÕó.
+% ä»»åŠ¡åäºŒ: åˆ›å»ºé«˜ç»´HilbertçŸ©é˜µ.
 clear all;
 iter = 10;
 time = 0;
@@ -233,9 +233,9 @@ for i = 1:iter
 end
 
 time_12 = time/iter;
-fprintf('ÈÎÎñÊ®¶þÆ½¾ùÓÃÊ±: %f Ãë.\n', time_12);
+fprintf('ä»»åŠ¡åäºŒå¹³å‡ç”¨æ—¶: %f ç§’.\n', time_12);
 
-% ÈÎÎñÊ®Èý: ¼ÆËã¶à¶ÔÊý×éµÄ×î´ó¹«Ô¼Êý.
+% ä»»åŠ¡åä¸‰: è®¡ç®—å¤šå¯¹æ•°ç»„çš„æœ€å¤§å…¬çº¦æ•°.
 %{
 function result = gcd_recursive(a, b)
     if b == 0
@@ -264,9 +264,9 @@ for i = 1:iter
 end
 
 time_13 = time/iter;
-fprintf('ÈÎÎñÊ®ÈýÆ½¾ùÓÃÊ±: %f Ãë.\n', time_13);
+fprintf('ä»»åŠ¡åä¸‰å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_13);
 
-% ÈÎÎñÊ®ËÄ: ´´½¨¸ßÎ¬Toeplitz¾ØÕó.
+% ä»»åŠ¡åå››: åˆ›å»ºé«˜ç»´ToeplitzçŸ©é˜µ.
 clear all;
 iter = 10;
 time = 0;
@@ -285,9 +285,9 @@ for k = 1:iter
 end
 
 time_14 = time/iter;
-fprintf('ÈÎÎñÊ®ËÄÆ½¾ùÓÃÊ±: %f Ãë.\n', time_14);
+fprintf('ä»»åŠ¡åå››å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_14);
 
-% ÈÎÎñÊ®Îå: ¶Ô¸ßÎ¬¾ØÕó×öÖ÷³É·Ö·ÖÎö.
+% ä»»åŠ¡åäº”: å¯¹é«˜ç»´çŸ©é˜µåšä¸»æˆåˆ†åˆ†æž.
 clear all;
 iter = 10;
 time = 0;
@@ -302,15 +302,15 @@ for k = 1:iter
 end
 
 time_15 = time/iter;
-fprintf('ÈÎÎñÊ®ÎåÆ½¾ùÓÃÊ±: %f Ãë.\n', time_15);
+fprintf('ä»»åŠ¡åäº”å¹³å‡ç”¨æ—¶: %f ç§’.\n', time_15);
 
 %{ 
-µÚÈý½×¶ÎµÄÄ³´ÎÔËÐÐ½á¹ûÎª:
+ç¬¬ä¸‰é˜¶æ®µçš„æŸæ¬¡è¿è¡Œç»“æžœä¸º:
 
-ÈÎÎñÊ®Ò»Æ½¾ùÓÃÊ±: 0.019631 Ãë.
-ÈÎÎñÊ®¶þÆ½¾ùÓÃÊ±: 0.013688 Ãë.
-ÈÎÎñÊ®ÈýÆ½¾ùÓÃÊ±: 0.151075 Ãë.
-ÈÎÎñÊ®ËÄÆ½¾ùÓÃÊ±: 0.002642 Ãë.
-ÈÎÎñÊ®ÎåÆ½¾ùÓÃÊ±: 0.013592 Ãë.
+ä»»åŠ¡åä¸€å¹³å‡ç”¨æ—¶: 0.019631 ç§’.
+ä»»åŠ¡åäºŒå¹³å‡ç”¨æ—¶: 0.013688 ç§’.
+ä»»åŠ¡åä¸‰å¹³å‡ç”¨æ—¶: 0.151075 ç§’.
+ä»»åŠ¡åå››å¹³å‡ç”¨æ—¶: 0.002642 ç§’.
+ä»»åŠ¡åäº”å¹³å‡ç”¨æ—¶: 0.013592 ç§’.
 
 %}
